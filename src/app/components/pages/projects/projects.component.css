@@ -1,0 +1,46 @@
+.project img{
+  height: 350px;
+  width: 300px;
+  object-fit: cover;
+  border-radius:30px 30px 0 0 ;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.project{
+  margin: 20px;
+  background-color: var(--btn-bg-color);
+  border-radius: 30px;
+}
+
+.project button{
+  padding: 10px;
+  margin: 10px;
+  width: 100px;
+  cursor: pointer;
+  border-radius: 30px;
+  color: var(--btn-txt-color);
+  background:rgb(210, 210, 210);
+}
+
+
+.project .btns{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.view-more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.view-more a{
+  text-decoration: none;
+  color: var(--btn-txt-color);
+}
+.view-more a:hover {
+  color: rgb(17, 125, 119);
+}
