@@ -6,8 +6,8 @@
     "start": "node server.js",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "build":"ng build",
-    "heroku-postbuild": "ng build --production"
+    "heroku-postbuild": "ng build --prod",
+    "build":"ng build"
 
   },
   "private": true,
