@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ResumeComponent implements OnInit {
 
   constructor() { }
-  doc:String =  "../../../../assets/THUPI M-RESUME.pdf";
+  doc:String =  "../../../../assets/Marinkie Thupi Resume.pdf";
 
   ngOnInit(): void {
   }
